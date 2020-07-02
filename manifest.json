@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "U of Tears",
+  "description": "Quick access to top academic links in University of Toronto",
+  "version": "1.0.0",
+  "icons": { "128": "tears.png" },
+  "browser_action": {
+    "default_icon": "tears.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
